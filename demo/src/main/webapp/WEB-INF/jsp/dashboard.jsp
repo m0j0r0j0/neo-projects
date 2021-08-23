@@ -31,7 +31,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html">Neo <span style="font-size: 28px;">Projects & Solutions</span></a>
+        <a class="navbar-brand" href="index.html" style="font-size: 25px;" >Neo <span>Projects & Solutions</span></a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
@@ -198,8 +198,8 @@
         <div class="col-md-6">
           <div class="detail-info">
             <hgroup>
-              <h3 class="det-txt"> Is inclusive quality education affordable?</h3>
-              <h4 class="sm-txt">(Revised and Updated for 2016)</h4>
+              <h3 class="det-txt">Every thing is editable here!!!!</h3>
+              <h4 class="sm-txt">(Revised and Updated for 2021)</h4>
             </hgroup>
             <p class="det-p">Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tincidunt convallis id id nisi in interdum.</p>
           </div>
@@ -370,7 +370,7 @@
               <h3>Certificate of Completion</h3>
               <p>Congratulations to all students who have recently completed their Primavera Training from our institute. Our best wishes for your future endeavor.</p>
             </figcaption>
-            <a href="#"></a>
+            <!-- <a href="#"></a> -->
           </figure>
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
@@ -380,7 +380,7 @@
               <h3>Certificate of Completion</h3>
               <p>Congratulations Kalpesh Kamble for successful completion of Project Planning using Primavera P6 PPM course</p>
             </figcaption>
-            <a href="#"></a>
+            <!-- <a href=""></a> -->
           </figure>
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
@@ -390,7 +390,7 @@
               <h3>Certificate of Completion</h3>
               <p>Congratulations to all students who have recently completed their Primavera Training from our institute. Our best wishes for your future endeavor.</p>
             </figcaption>
-            <a href="#"></a>
+            <!-- <a href="#"></a> -->
           </figure>
         </div>
         <!-- <div class="col-md-4 col-sm-6 padleft-right">
