@@ -54,6 +54,10 @@ public class Main {
 	 @Value("${course.price.description}")
 	 private String coursePriceDesc;
 	 
+	 @Value("${app.heading}")
+	 private String heading;
+	 
+	 
 	
 	@GetMapping(value = {"/","index"})
 	public String index2( String isCountEnable, Model m, HttpServletRequest request){
@@ -74,6 +78,8 @@ public class Main {
 		m.addAttribute("plan2Price", plan2Price);
 		m.addAttribute("plan3Price", plan3Price);
 		m.addAttribute("coursePriceDesc", coursePriceDesc);
+		
+		m.addAttribute("heading", heading);
 		
 		return "dashboard";
 	}

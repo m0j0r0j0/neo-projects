@@ -49,7 +49,7 @@
   <!--/ Navigation bar-->
   <!--Modal box-->
   <div class="modal fade" id="login" role="dialog">
-    <div class="modal-dialog modal-sm">
+    <div class="modal-dialog modal-lg">
 
       <!-- Modal content no 1-->
       <div class="modal-content">
@@ -58,7 +58,7 @@
           <h4 class="modal-title text-center form-title">Test</h4>
         </div> -->
         <div class="modal-body padtrbl">
-			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfAUDsnqYPb6QCjMROteTI0odTaOvhlxM8WFnHWMfrbOrw7gA/viewform?embedded=true" width="340" height="512" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfAUDsnqYPb6QCjMROteTI0odTaOvhlxM8WFnHWMfrbOrw7gA/viewform?embedded=true" width="568" height="712" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
          <!--  <div class="login-box-body">
             <p class="login-box-msg">Sign in to start your session</p>
             <div class="form-group">
@@ -105,7 +105,7 @@
         <div class="row">
           <div class="banner-text text-center">
             <div class="text-border">
-              <h2 class="text-dec">Trust & Quality</h2>
+              <h2 class="text-dec">${heading}</h2>
             </div>
             <div class="intro-para text-center quote">
               <p class="big-text">Primavera & Microsoft Project Training</p>
