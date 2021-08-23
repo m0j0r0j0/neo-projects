@@ -560,7 +560,7 @@
         <li><a href="#link"><i class="fa fa-dribbble fa-fw"></i></a></li>
         <li><a href="#link"><i class="fa fa-linkedin fa-fw"></i></a></li>
       </ul>
-      ©2016 Mentor Theme. All rights reserved
+      Neo Projects & Solutions. All rights reserved
       <div class="credits">
         <!--
           All the links in the footer should remain intact.
@@ -568,7 +568,7 @@
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Mentor
         -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade.com</a>
+       <!--  Designed by <a href="https://bootstrapmade.com/">BootstrapMade.com</a> -->
       </div>
     </div>
   </footer>
