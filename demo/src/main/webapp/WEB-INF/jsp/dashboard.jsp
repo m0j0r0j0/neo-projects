@@ -53,10 +53,10 @@
 
       <!-- Modal content no 1-->
       <div class="modal-content">
-        <!-- <div class="modal-header">
+        <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title text-center form-title">Test</h4>
-        </div> -->
+          <h4 class="modal-title text-center form-title">Get Quote</h4>
+        </div> 
         <div class="modal-body padtrbl">
 			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfAUDsnqYPb6QCjMROteTI0odTaOvhlxM8WFnHWMfrbOrw7gA/viewform?embedded=true" width="568" height="712" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
          <!--  <div class="login-box-body">
