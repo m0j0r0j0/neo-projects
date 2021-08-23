@@ -113,7 +113,7 @@
             </div>
             <a href="#feature" class="mouse-hover">
               <div class="mouse"></div>
-            </a>
+            </a> 
           </div>
         </div>
       </div>
