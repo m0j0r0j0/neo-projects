@@ -108,7 +108,7 @@
               <h2 class="text-dec">${heading}</h2>
             </div>
             <div class="intro-para text-center quote">
-              <p class="big-text">Primavera & Microsoft Project Training</p>
+              <p style="font-size: 35px;">Primavera & Microsoft Project Training</p>
               <p class="small-text">Learning Today . . . Leading Tomorrow.</p>
               <a href="#" class="btn get-quote" data-target="#login"  data-toggle="modal">GET A QUOTE</a>
             </div>
@@ -131,7 +131,7 @@
           <hr class="bottom-line">
         </div>
         <div class="feature-info">
-          <div class="fea">
+          <!-- <div class="fea">
             <div class="col-md-4">
               <div class="heading pull-right">
                 <h4>Latest Technologies</h4>
@@ -141,19 +141,20 @@
                 <i class="fa fa-css3"></i>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="fea">
-            <div class="col-md-4">
-              <div class="heading pull-right">
+            <div class="col-md-12 text-center">
+              <img src="img/pvsm.jpg" class="text-center">	
+              <!-- <div class="heading pull-right">
                 <h4>Toons Background</h4>
                 <p>Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tincidunt convallis id id nisi in interdum.</p>
               </div>
               <div class="fea-img pull-left">
                 <i class="fa fa-drupal"></i>
-              </div>
+              </div> -->
             </div>
           </div>
-          <div class="fea">
+          <!-- <div class="fea">
             <div class="col-md-4">
               <div class="heading pull-right">
                 <h4>Award Winning Design</h4>
@@ -163,17 +164,20 @@
                 <i class="fa fa-trophy"></i>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
   </section>
   <!--/ feature-->
   <!--Organisations-->
-  <section id="organisations" class="section-padding">
+  <!--<section id="organisations" class="section-padding">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+      	<div class="col-sm-12 text-center">
+      		<script src="https://apps.elfsight.com/p/platform.js" defer></script> <div class="elfsight-app-b8fbf32d-dc23-4f08-900d-bc554b221707"></div>
+      	</div>
+         <div class="col-md-6">
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
             <div class="orga-stru">
               <h3>65%</h3>
@@ -207,10 +211,10 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!--/ Organisations-->
   <!--Cta-->
-  <section id="cta-2">
+  <!-- <section id="cta-2">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -225,7 +229,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!--/ Cta-->
   <!--work-shop-->
   <section id="work-shop" class="section-padding">
@@ -453,7 +457,7 @@
 
             <!-- Plean Detail -->
             <div class="price-in mart-15">
-              <a href="#" class="btn btn-bg green btn-block">BUY</a>
+              <a href="https://pmny.in/cIMJZUUjg6R4" class="btn btn-bg green btn-block">BUY</a>
             </div>
           </div>
         </div>
@@ -467,7 +471,7 @@
 
             <!-- Plean Detail -->
             <div class="price-in mart-15">
-              <a href="#" class="btn btn-bg yellow btn-block">BUY</a>
+              <a href="https://pmny.in/cIFKonOyH60f" class="btn btn-bg yellow btn-block">BUY</a>
             </div>
           </div>
         </div>
@@ -481,7 +485,7 @@
 
             <!-- Plean Detail -->
             <div class="price-in mart-15">
-              <a href="#" class="btn btn-bg red btn-block">BUY</a>
+              <a href="https://pmny.in/9rw1vfu0ZW8T" class="btn btn-bg red btn-block">BUY</a>
             </div>
           </div>
         </div>
