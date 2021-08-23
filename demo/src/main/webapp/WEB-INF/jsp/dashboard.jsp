@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <html lang="en">
 
 <head>
@@ -39,8 +40,8 @@
           <li><a href="#organisations">Organisations</a></li>
           <li><a href="#courses">Courses</a></li>
           <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#" data-target="#login" data-toggle="modal">Sign in</a></li>
-          <li class="btn-trial"><a href="#footer">Free Trail</a></li>
+          <li><a href="#contact" >Contact Us</a></li>
+          <li class="btn-trial"><a href="#" data-target="#login"  data-toggle="modal">Get Quote</a></li>
         </ul>
       </div>
     </div>
@@ -109,7 +110,7 @@
             <div class="intro-para text-center quote">
               <p class="big-text">Primavera & Microsoft Project Training</p>
               <p class="small-text">Learning Today . . . Leading Tomorrow.</p>
-              <a href="#footer" class="btn get-quote">GET A QUOTE</a>
+              <a href="#" class="btn get-quote" data-target="#login"  data-toggle="modal">GET A QUOTE</a>
             </div>
             <a href="#feature" class="mouse-hover">
               <div class="mouse"></div>
@@ -241,7 +242,9 @@
               <img src="img/img1.jpg" class="img-thumbnail"/>
             </div>
             <div class="icon-text">
-              <h4 class="ser-text">Project Planning using Primavera P6 </h4>
+              <h4 class="ser-text">${firstBatchName}</h4>
+              <hr>
+              <h4>${firstBatch}</h4>
             </div>
           </div>
         </div>
@@ -251,7 +254,9 @@
               <img src="img/img3.jpg" class="img-thumbnail"/>
             </div>
             <div class="icon-text">
-              <h4 class="ser-text">Project Planning using Microsoft Project</h4>
+              <h4 class="ser-text">${secondBatchName}</h4>
+              <hr>
+              <h4>${secondBatch}</h4>
             </div>
           </div>
         </div>
@@ -261,7 +266,9 @@
               <img src="img/img2.jpg" class="img-thumbnail"/>
             </div>
             <div class="icon-text">
-              <h4 class="ser-text">Managing Risks Using Primavera Risk Analysis</h4>
+              <h4 class="ser-text">${thirdBatchName}</h4>
+              <hr>
+              <h4>${thirdBatch}</h4>
             </div>
           </div>
         </div>
@@ -433,15 +440,15 @@
       <div class="row">
         <div class="header-section text-center">
           <h2>Our Pricing</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
+          <p>${coursePriceDesc}</p>
           <hr class="bottom-line">
         </div>
         <div class="col-md-4 col-sm-4">
           <div class="price-table">
             <!-- Plan  -->
             <div class="pricing-head">
-              <h4>Monthly Plan</h4>
-              <span class="fa fa-inr curency"></span> <span class="amount">9,990</span>
+              <h4>${plan1}</h4>
+              <span class="fa fa-inr curency"></span> <span class="amount">${plan1Price}</span>
             </div>
 
             <!-- Plean Detail -->
@@ -454,8 +461,8 @@
           <div class="price-table">
             <!-- Plan  -->
             <div class="pricing-head">
-              <h4>Quarterly Plan</h4>
-              <span class="fa fa-inr curency"></span> <span class="amount">19,999</span>
+              <h4>${plan2}</h4>
+              <span class="fa fa-inr curency"></span> <span class="amount">${plan2Price}</span>
             </div>
 
             <!-- Plean Detail -->
@@ -468,8 +475,8 @@
           <div class="price-table">
             <!-- Plan  -->
             <div class="pricing-head">
-              <h4>Year Plan</h4>
-              <span class="fa fa-inr curency"></span> <span class="amount">79,999</span>
+              <h4>${plan3}</h4>
+              <span class="fa fa-inr curency"></span> <span class="amount">${plan3Price}</span>
             </div>
 
             <!-- Plean Detail -->
@@ -486,15 +493,17 @@
   <section id="contact" class="section-padding">
     <div class="container">
       <div class="row">
-        <div class="header-section text-center">
+        <div class="col-xs-12 header-section text-center">
           <h2>Contact Us</h2>
-          <p><b>Mobile:</b> 096198 78721 | <b>Address:</b> Janki Nagar, Uday Nagar Nagpur, Maharashtra 440034 India</p>
+          <p><b>Mobile:</b> <a href="tel:${mobile}"><u>${mobile}</u></a> | <b>Email:</b> <a href="mailto:sales@neoprojects.in"><u>sales@neoprojects.in</u></a>
+           <br><br>
+           <b>Address:</b> ${address}</p>  
           <hr class="bottom-line">
         </div>
         <div id="sendmessage">Your message has been sent. Thank you!</div>
         <div id="errormessage"></div>
         <form action="" method="post" role="form" class="contactForm">
-          <div class="col-md-6 col-sm-6 col-xs-12 left">
+          <!-- <div class="col-md-6 col-sm-6 col-xs-12 left">
             <div class="form-group">
               <input type="text" name="name" class="form-control form" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
               <div class="validation"></div>
@@ -514,12 +523,18 @@
               <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
               <div class="validation"></div>
             </div>
-          </div>
+          </div> -->
 
-          <div class="col-xs-12">
-            <!-- Button -->
-            <button type="submit" id="submit" name="submit" class="form contact-form-button light-form-button oswald light">SEND EMAIL</button>
-          </div>
+          <!-- <div class="col-xs-12 text-center">
+            Button
+            <a href="mailto:sales@neoprojects.in" class="form contact-form-button light-form-button oswald light">
+            	Send Email
+            </a>
+          </div> -->
+          <br><br>
+          <div class="col-xs-12 text-center">
+          	<jsp:include page="../jsp/map.jsp" />
+          </div>	
         </form>
 
       </div>
@@ -530,39 +545,39 @@
   <footer id="footer" class="footer">
     <div class="container text-center">
 
-      <h3>Start Your Free Trial Now!</h3>
+      <h3>All The Best!</h3>
 
-      <form class="mc-trial row">
+      <!-- <form class="mc-trial row">
         <div class="form-group col-md-3 col-md-offset-2 col-sm-4">
           <div class=" controls">
             <input name="name" placeholder="Enter Your Name" class="form-control" type="text">
           </div>
         </div>
-        <!-- End email input -->
+        End email input
         <div class="form-group col-md-3 col-sm-4">
           <div class=" controls">
             <input name="EMAIL" placeholder="Enter Your email" class="form-control" type="email">
           </div>
         </div>
-        <!-- End email input -->
+        End email input
         <div class="col-md-2 col-sm-4">
           <p>
             <button name="submit" type="submit" class="btn btn-block btn-submit">
             Submit <i class="fa fa-arrow-right"></i></button>
           </p>
         </div>
-      </form>
+      </form> -->
       <!-- End newsletter-form -->
       <ul class="social-links">
         <li><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li>
         <li><a href="#link"><i class="fa fa-facebook fa-fw"></i></a></li>
-        <li><a href="#link"><i class="fa fa-google-plus fa-fw"></i></a></li>
+        <li><a href="#link"><i class="fa fa-google fa-fw"></i></a></li>
         <li><a href="#link"><i class="fa fa-dribbble fa-fw"></i></a></li>
         <li><a href="#link"><i class="fa fa-linkedin fa-fw"></i></a></li>
       </ul>
       Neo Projects & Solutions. All rights reserved
       <div class="credits">
-        <!--
+      	<!--
           All the links in the footer should remain intact.
           You can delete the links only if you purchased the pro version.
           Licensing information: https://bootstrapmade.com/license/
