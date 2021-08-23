@@ -37,7 +37,7 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#feature">Features</a></li>
-          <li><a href="#organisations">Organisations</a></li>
+          <li><a href="#work-shop">Upcoming Workshop</a></li>
           <li><a href="#courses">Courses</a></li>
           <li><a href="#pricing">Pricing</a></li>
           <li><a href="#contact" >Contact Us</a></li>
@@ -575,7 +575,7 @@
         <li><a href="#link"><i class="fa fa-dribbble fa-fw"></i></a></li>
         <li><a href="#link"><i class="fa fa-linkedin fa-fw"></i></a></li>
       </ul>
-      Neo Projects & Solutions. All rights reserved
+      Neo Projects & Solutions. All rights reserved 2021.
       <div class="credits">
       	<!--
           All the links in the footer should remain intact.
