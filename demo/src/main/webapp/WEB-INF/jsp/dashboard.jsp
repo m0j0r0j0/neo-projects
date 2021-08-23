@@ -143,8 +143,8 @@
             </div>
           </div> -->
           <div class="fea">
-            <div class="col-md-12 text-center">
-              <img src="img/pvsm.jpg" class="text-center">	
+            <div class="col-md-12 img-responsive text-center" >
+              <img src="img/pvsm.jpg" class="img-responsive text-center ">	
               <!-- <div class="heading pull-right">
                 <h4>Toons Background</h4>
                 <p>Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tincidunt convallis id id nisi in interdum.</p>
