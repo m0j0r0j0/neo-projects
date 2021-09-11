@@ -8,7 +8,12 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
+import lombok.Getter;
+import lombok.Setter;
+
 @Entity
+@Getter
+@Setter
 public class Category {
 
 	@Id
@@ -17,30 +22,5 @@ public class Category {
 	private String categoryName;
 	@OneToMany
 	private List<Attribute> categoryAttribute;
-	
-
-	public int getCategoryId() {
-		return categoryId;
-	}
-
-	public void setCategoryId(int categoryId) {
-		this.categoryId = categoryId;
-	}
-
-	public String getCategoryName() {
-		return categoryName;
-	}
-
-	public void setCategoryName(String categoryName) {
-		this.categoryName = categoryName;
-	}
-
-	public List<Attribute> getCategoryAttribute() {
-		return categoryAttribute;
-	}
-
-	public void setCategoryAttribute(List<Attribute> categoryAttribute) {
-		this.categoryAttribute = categoryAttribute;
-	}
 	
 }
